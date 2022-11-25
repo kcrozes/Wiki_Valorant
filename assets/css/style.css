@@ -1,0 +1,62 @@
+/* Import de Font */
+
+@import url('https://fonts.cdnfonts.com/css/valorant');
+
+/* Mise en place du CSS de base */
+
+html {
+    font-size: 62.5%;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 2.5rem;
+    background-color: #32333d;
+    color:#ffffff;
+    margin:0rem;
+}
+
+h1{
+    font-size: 8rem;
+    color:#ff4655;
+    font-family: 'VALORANT', sans-serif;
+}
+
+h2{
+    font-size: 5rem;
+}
+
+/* Search CSS */
+
+#search{
+    background-color: #111111;
+    padding:5rem;
+    border-radius:0 0 1rem 1rem;
+    text-align: center;
+}
+
+#search select{
+    background-color: #32333d;
+    color: white;
+    padding: 12px;
+    width: 250px;
+    border: none;
+    border-radius: 10px;
+    font-size: 22px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+
+/* Template CSS */
+
+.margin{
+    margin:30px
+}
+
+.map-picture{
+    max-width: 800px;
+    max-height: 800px;
+}
